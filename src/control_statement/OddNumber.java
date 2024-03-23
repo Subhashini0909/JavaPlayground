@@ -1,6 +1,6 @@
 package control_statement;
 
-public class OddNos1_100 {
+public class OddNumber {
 
 	public static void main(String[] args) 
 	{

@@ -1,4 +1,4 @@
-package control_statement;
+package control_statement.Patterns;
 
 public class Pattern1_RightAngle {
 

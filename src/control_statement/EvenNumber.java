@@ -1,6 +1,6 @@
 package control_statement;
 
-public class EvenNos2_100 {
+public class EvenNumber {
 
 	public static void main(String[] args) {
 		
