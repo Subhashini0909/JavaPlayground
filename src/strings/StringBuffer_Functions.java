@@ -1,16 +1,29 @@
 package strings;
 
-public class StringBuffer_Functions {
+public class StringBuffer_functions {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		
-		String a = "Subha";
-		StringBuffer b = new StringBuffer("SubhaSHINI");
-		System.out.println("B before changing : " + b.hashCode());
-		b= new StringBuffer("Subhashini");
-		System.out.println("B after changing : " + b.hashCode());
-		System.out.println(b.reverse());
+		StringBuffer a = new StringBuffer("Subha");
+		System.out.println("Append : " + a.append("shini"));
+			//System.out.println(a);
+		System.out.println("Insert : " + a.insert(1, "ashini"));
+			//System.out.println(a);
+		System.out.println("Delete : " + a.delete(1, 7));
+		
+		System.out.println();
+		
+		StringBuilder b = new StringBuilder("Subhashini");
+		System.out.println("Append : " + b.append("shini"));
+			//System.out.println(b);
+		System.out.println("Insert : " + b.insert(1, "ashini"));
+			//System.out.println(b);
+		System.out.println("Delete : " + b.delete(1, 7));
 
 	}
-
 }
+
+/*
+ * StringBuffer and stringBuilder are almost same
+ */

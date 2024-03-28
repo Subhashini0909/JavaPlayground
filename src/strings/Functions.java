@@ -24,7 +24,7 @@ public class Functions {
 		System.out.println("Contains : " + b.contains(a));
 		System.out.println("Endswith : " + b.endsWith("INI"));
 		
-		
+		System.out.println(a);
 		
 		
 	}
