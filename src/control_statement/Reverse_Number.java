@@ -16,7 +16,7 @@ public class Reverse_Number {
 				//Dividing just to change the value of n. Means 1. n=1234, 2. n=123, 3. n=12, 4. n=1
 			
 			rev = rev*10+r;
-			//System.out.println(rev); --> PRINTS WRITE TRIANGLE
+			//System.out.println(rev); --> PRINTS reverse
 		}
 		System.out.println(rev);
 

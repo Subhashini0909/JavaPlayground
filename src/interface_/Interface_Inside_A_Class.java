@@ -15,4 +15,3 @@ public class Interface_Inside_A_Class{
 	}
 
 }
-
