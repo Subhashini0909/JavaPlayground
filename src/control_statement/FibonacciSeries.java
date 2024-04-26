@@ -6,11 +6,12 @@ public class FibonacciSeries {
 		
 		int a=0;
 		int b=1;
+		int c=0;
 		System.out.println(a);
 		System.out.println(b);
-		while(a<=10)
+		while(c<=10)
 		{
-		int c=a+b;
+		c=a+b;
 		System.out.println(c);
 		a=b;
 		b=c;

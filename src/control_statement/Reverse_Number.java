@@ -4,8 +4,8 @@ public class Reverse_Number {
 
 	public static void main(String[] args) {
 		
-		int n=1234;
-		int r=0;int rev=0;
+		int n=123;
+		int r;int rev=0;
 		
 		while(n>0)
 		{

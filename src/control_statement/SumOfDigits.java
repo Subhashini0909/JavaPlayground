@@ -4,15 +4,16 @@ public class SumOfDigits {
 
 	public static void main(String[] args) {
 		
-		int a = 123;
+		int a = 310;
 		int sum =0;
-		int r=0;
+		int r;
 		
 		while(a>0)
 		{
 			r=a%10;
-			sum = sum+r;
 			a=a/10;
+			sum = sum+r;
+			
 		}
 		System.out.println("The sum of the given digit is : " + sum);
 	}
